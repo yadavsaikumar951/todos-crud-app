@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todos Application</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Todos Application</h2>
+
+    <div class="input-group mb-3">
+        <input type="text" id="todoInput" class="form-control" placeholder="Enter a task">
+        <button class="btn btn-primary" id="addTodoBtn">Add</button>
+    </div>
+
+    <ul id="todoList" class="list-group"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
